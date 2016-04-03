@@ -1,4 +1,16 @@
 // button creator mixin
+
+// The paramater list is below
+
+// 1. Button Width
+// 2. Button Height (it is better for this value to be set 4 times lower than the base width)
+// 3. Button background color
+// 4. Button text color
+// 5. Button font size
+// 6. Box shadow of the button
+// 7. Transition of the button
+
+
 @mixin button ($buttWidth, $buttHeight, $buttonColor,$textColor, $fontSize, $boxShadow, $transition) {
   width: $buttWidth;
   height: $buttHeight;
