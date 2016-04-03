@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.buttons {
+  width: 70%;
+  height: 70%;
+  background: lightgray;
+  position: absolute;
+  display: flex;
+  justify-content: space-around; }
+
+#blueButt {
+  width: 200px;
+  height: 50px;
+  background: #1976D2;
+  color: #FFFFFF;
+  font-size: 1em;
+  box-shadow: 0 10px 0 #145ca4;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.1s all ease;
+  -webkit-transition: 0.1s all ease; }
+  #blueButt:active {
+    background: #145ca4;
+    margin-top: 10px;
+    box-shadow: none; }
+
+#greenButt {
+  width: 200px;
+  height: 50px;
+  background: #00796B;
+  color: #FFFFFF;
+  font-size: 1em;
+  box-shadow: 0 10px 0 #00463e;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.1s all ease;
+  -webkit-transition: 0.1s all ease; }
+  #greenButt:active {
+    background: #00463e;
+    margin-top: 10px;
+    box-shadow: none; }
+
+#redButt {
+  width: 200px;
+  height: 50px;
+  background: #D32F2F;
+  color: #FFFFFF;
+  font-size: 1em;
+  box-shadow: 0 10px 0 #ab2424;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.1s all ease;
+  -webkit-transition: 0.1s all ease; }
+  #redButt:active {
+    background: #ab2424;
+    margin-top: 10px;
+    box-shadow: none; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,31 @@
+@import 'mixins/_button';
+@import 'colors/_colors';
+@import 'variables/_variables';
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+.buttons{
+	width: 70%;
+	height: 70%;
+	background: lightgray;
+	position: absolute;
+	display: flex;
+	justify-content: space-around;
+}
+
+
+#blueButt{
+	@include button($buttonWidth, $buttonWidth/4, $mainBlue, $mainWhite, $mainFontSize, 10px, 0.1s);
+}
+
+#greenButt{
+	@include button($buttonWidth, $buttonWidth/4, $mainGreen, $mainWhite, $mainFontSize, 10px, 0.1s);
+}
+
+#redButt{
+	@include button($buttonWidth, $buttonWidth/4, $mainRed, $mainWhite, $mainFontSize, 10px, 0.1s);
+}

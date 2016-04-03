@@ -1,0 +1,19 @@
+// button creator mixin
+@mixin button ($buttWidth, $buttHeight, $buttonColor,$textColor, $fontSize, $boxShadow, $transition) {
+  width: $buttWidth;
+  height: $buttHeight;
+  background: $buttonColor;
+  color: $textColor;
+  font-size: $fontSize;
+  box-shadow: 0 $boxShadow 0 darken($buttonColor, 10%);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: $transition all ease;
+  -webkit-transition: $transition all ease;
+  &:active {
+    background: darken($buttonColor, 10%);
+    margin-top: $boxShadow;
+    box-shadow: none;
+  }
+}
