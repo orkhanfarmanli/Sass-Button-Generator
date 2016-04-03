@@ -11,7 +11,7 @@
 // 7. Transition of the button
 
 
-@mixin button ($buttWidth, $buttHeight, $buttonColor,$textColor, $fontSize, $boxShadow, $transition) {
+@mixin button ($buttWidth, $buttHeight, $buttonColor,$textColor, $fontSize, $boxShadow, $transitionTime) {
   width: $buttWidth;
   height: $buttHeight;
   background: $buttonColor;
@@ -21,8 +21,8 @@
   border: none;
   outline: none;
   cursor: pointer;
-  transition: $transition all ease;
-  -webkit-transition: $transition all ease;
+  transition: $transitionTime all ease;
+  -webkit-transition: $transitionTime all ease;
   &:active {
     background: darken($buttonColor, 10%);
     margin-top: $boxShadow;

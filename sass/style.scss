@@ -12,9 +12,19 @@
 	width: 70%;
 	height: 70%;
 	background: lightgray;
+	padding-top: 50px;
 	position: absolute;
+	left: 15%;
+	transform: translateX(-15%);
+	top: 50%;
+	transform: translateY(-50%);
 	display: flex;
-	justify-content: space-around;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.button{
+	margin: 0px 5px;
 }
 
 
@@ -26,7 +36,7 @@
 // 4. Button text color
 // 5. Button font size
 // 6. Box shadow of the button
-// 7. Transition of the button
+// 7. Transition time of the button
 
 
 

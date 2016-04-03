@@ -6,9 +6,18 @@
   width: 70%;
   height: 70%;
   background: lightgray;
+  padding-top: 50px;
   position: absolute;
+  left: 15%;
+  transform: translateX(-15%);
+  top: 50%;
+  transform: translateY(-50%);
   display: flex;
-  justify-content: space-around; }
+  flex-direction: row;
+  justify-content: center; }
+
+.button {
+  margin: 0px 5px; }
 
 #blueButt {
   width: 200px;
