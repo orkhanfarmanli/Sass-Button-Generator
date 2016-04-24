@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Lato; }
+
+.buttons {
+  width: 100%;
+  height: 100%;
+  background: lightgray;
+  position: absolute;
+  text-align: center; }
+  .buttons h1 {
+    padding: 40px 0; }
+  .buttons .buttonsWrapper {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around; }
+
+#blueButt {
+  width: 200px;
+  height: 50px;
+  background: #1976D2;
+  color: #FFFFFF;
+  font-size: 1em;
+  box-shadow: 0 10px 0 #145ca4;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.1s all ease;
+  -webkit-transition: 0.1s all ease; }
+  #blueButt:active {
+    background: #145ca4;
+    margin-top: 10px;
+    box-shadow: none; }
+
+#greenButt {
+  width: 200px;
+  height: 50px;
+  background: #00796B;
+  color: #FFFFFF;
+  font-size: 1em;
+  box-shadow: 0 10px 0 #00463e;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.1s all ease;
+  -webkit-transition: 0.1s all ease; }
+  #greenButt:active {
+    background: #00463e;
+    margin-top: 10px;
+    box-shadow: none; }
+
+#redButt {
+  width: 200px;
+  height: 50px;
+  background: #D32F2F;
+  color: #FFFFFF;
+  font-size: 1em;
+  box-shadow: 0 10px 0 #ab2424;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.1s all ease;
+  -webkit-transition: 0.1s all ease; }
+  #redButt:active {
+    background: #ab2424;
+    margin-top: 10px;
+    box-shadow: none; }
+
+#flatBlue {
+  width: 200px;
+  height: 50px;
+  background: transparent;
+  border: 1px solid #1976D2;
+  color: #151515;
+  font-size: 1em;
+  outline: none;
+  cursor: pointer;
+  transition: 0.1s all ease;
+  -webkit-transition: 0.1s all ease; }
+  #flatBlue:hover {
+    background: #1976D2;
+    color: white; }
+  #flatBlue:active {
+    background: #1669bb;
+    transform: scale(0.95, 0.95); }
+
+#flatGreen {
+  width: 200px;
+  height: 50px;
+  background: transparent;
+  border: 1px solid #00796B;
+  color: #151515;
+  font-size: 1em;
+  outline: none;
+  cursor: pointer;
+  transition: 0.1s all ease;
+  -webkit-transition: 0.1s all ease; }
+  #flatGreen:hover {
+    background: #00796B;
+    color: white; }
+  #flatGreen:active {
+    background: #006054;
+    transform: scale(0.95, 0.95); }
+
+#flatRed {
+  width: 200px;
+  height: 50px;
+  background: transparent;
+  border: 1px solid #D32F2F;
+  color: #151515;
+  font-size: 1em;
+  outline: none;
+  cursor: pointer;
+  transition: 0.1s all ease;
+  -webkit-transition: 0.1s all ease; }
+  #flatRed:hover {
+    background: #D32F2F;
+    color: white; }
+  #flatRed:active {
+    background: #c02929;
+    transform: scale(0.95, 0.95); }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Lato; }
+
+.buttons {
+  width: 100%;
+  height: 100%;
+  background: lightgray;
+  position: absolute;
+  text-align: center; }
+  .buttons h1 {
+    padding: 40px 0; }
+  .buttons .buttonsWrapper {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around; }
+
+#blueButt {
+  width: 200px;
+  height: 50px;
+  background: #1976D2;
+  color: #FFFFFF;
+  font-size: 1em;
+  box-shadow: 0 10px 0 #145ca4;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.1s all ease;
+  -webkit-transition: 0.1s all ease; }
+  #blueButt:active {
+    background: #145ca4;
+    margin-top: 10px;
+    box-shadow: none; }
+
+#greenButt {
+  width: 200px;
+  height: 50px;
+  background: #00796B;
+  color: #FFFFFF;
+  font-size: 1em;
+  box-shadow: 0 10px 0 #00463e;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.1s all ease;
+  -webkit-transition: 0.1s all ease; }
+  #greenButt:active {
+    background: #00463e;
+    margin-top: 10px;
+    box-shadow: none; }
+
+#redButt {
+  width: 200px;
+  height: 50px;
+  background: #D32F2F;
+  color: #FFFFFF;
+  font-size: 1em;
+  box-shadow: 0 10px 0 #ab2424;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.1s all ease;
+  -webkit-transition: 0.1s all ease; }
+  #redButt:active {
+    background: #ab2424;
+    margin-top: 10px;
+    box-shadow: none; }
+
+#flatBlue {
+  width: 200px;
+  height: 50px;
+  background: transparent;
+  border: 1px solid #1976D2;
+  color: #151515;
+  font-size: 1em;
+  outline: none;
+  cursor: pointer;
+  transition: 0.1s all ease;
+  -webkit-transition: 0.1s all ease; }
+  #flatBlue:hover {
+    background: #1976D2;
+    color: white; }
+  #flatBlue:active {
+    background: #1669bb;
+    transform: scale(0.95, 0.95); }
+
+#flatGreen {
+  width: 200px;
+  height: 50px;
+  background: transparent;
+  border: 1px solid #00796B;
+  color: #151515;
+  font-size: 1em;
+  outline: none;
+  cursor: pointer;
+  transition: 0.1s all ease;
+  -webkit-transition: 0.1s all ease; }
+  #flatGreen:hover {
+    background: #00796B;
+    color: white; }
+  #flatGreen:active {
+    background: #006054;
+    transform: scale(0.95, 0.95); }
+
+#flatRed {
+  width: 200px;
+  height: 50px;
+  background: transparent;
+  border: 1px solid #D32F2F;
+  color: #151515;
+  font-size: 1em;
+  outline: none;
+  cursor: pointer;
+  transition: 0.1s all ease;
+  -webkit-transition: 0.1s all ease; }
+  #flatRed:hover {
+    background: #D32F2F;
+    color: white; }
+  #flatRed:active {
+    background: #c02929;
+    transform: scale(0.95, 0.95); }
+
+/*# sourceMappingURL=style.css.map */

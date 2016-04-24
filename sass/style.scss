@@ -1,0 +1,115 @@
+@import 'mixins/_button';
+@import 'colors/_colors';
+@import 'variables/_variables';
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Lato;
+}
+.buttons {
+    width: 100%;
+    height: 100%;
+    background: lightgray;
+    position: absolute;
+    text-align: center;
+    h1 {
+        padding: 40px 0;
+    }
+    .buttonsWrapper {
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+// The paramater list is below
+// Pushable buttons
+// 1. Button Width
+// 2. Button Height (it is better for this value to be set 4 times lower than the base width)
+// 3. Button background color
+// 4. Button text color
+// 5. Button font size
+// 6. Box shadow of the button
+// 7. Transition time of the button
+#blueButt {
+    @include button($buttonWidth, $buttonWidth/4, $mainBlue, $mainWhite, $mainFontSize, 10px, 0.1s);
+}
+#greenButt {
+    @include button($buttonWidth, $buttonWidth/4, $mainGreen, $mainWhite, $mainFontSize, 10px, 0.1s);
+}
+#redButt {
+    @include button($buttonWidth, $buttonWidth/4, $mainRed, $mainWhite, $mainFontSize, 10px, 0.1s);
+}
+// Flat transparent buttons
+// 1. Button Width
+// 2. Button Height (it is better for this value to be set 4 times lower than the base width)
+// 3. Button background color
+// 4. Button text color
+// 5. Button font size
+// 6. Transition of the button
+#flatBlue {
+    @include flatButt($buttonWidth, $buttonWidth/4, $mainBlue, $mainBlack, $mainFontSize, 0.1s);
+}
+#flatGreen {
+    @include flatButt($buttonWidth, $buttonWidth/4, $mainGreen, $mainBlack, $mainFontSize, 0.1s);
+}
+#flatRed {
+    @include flatButt($buttonWidth, $buttonWidth/4, $mainRed, $mainBlack, $mainFontSize, 0.1s);
+}@import 'mixins/_button';
+@import 'colors/_colors';
+@import 'variables/_variables';
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Lato;
+}
+.buttons {
+    width: 100%;
+    height: 100%;
+    background: lightgray;
+    position: absolute;
+    text-align: center;
+    h1 {
+        padding: 40px 0;
+    }
+    .buttonsWrapper {
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+// The paramater list is below
+// Pushable buttons
+// 1. Button Width
+// 2. Button Height (it is better for this value to be set 4 times lower than the base width)
+// 3. Button background color
+// 4. Button text color
+// 5. Button font size
+// 6. Box shadow of the button
+// 7. Transition time of the button
+#blueButt {
+    @include button($buttonWidth, $buttonWidth/4, $mainBlue, $mainWhite, $mainFontSize, 10px, 0.1s);
+}
+#greenButt {
+    @include button($buttonWidth, $buttonWidth/4, $mainGreen, $mainWhite, $mainFontSize, 10px, 0.1s);
+}
+#redButt {
+    @include button($buttonWidth, $buttonWidth/4, $mainRed, $mainWhite, $mainFontSize, 10px, 0.1s);
+}
+// Flat transparent buttons
+// 1. Button Width
+// 2. Button Height (it is better for this value to be set 4 times lower than the base width)
+// 3. Button background color
+// 4. Button text color
+// 5. Button font size
+// 6. Transition of the button
+#flatBlue {
+    @include flatButt($buttonWidth, $buttonWidth/4, $mainBlue, $mainBlack, $mainFontSize, 0.1s);
+}
+#flatGreen {
+    @include flatButt($buttonWidth, $buttonWidth/4, $mainGreen, $mainBlack, $mainFontSize, 0.1s);
+}
+#flatRed {
+    @include flatButt($buttonWidth, $buttonWidth/4, $mainRed, $mainBlack, $mainFontSize, 0.1s);
+}

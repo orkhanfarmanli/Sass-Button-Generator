@@ -1,0 +1,65 @@
+// font family mixin
+@mixin font-face($font-family, $file-path, $font-weight, $font-style) {
+     @font-face{
+        font-family: $font-family;
+        src: url('#{$file-path}.eot');
+        src: url('#{$file-path}.eot?#iefix') format('embedded-opentype'), url('#{$file-path}.woff') format('woff'), url('#{$file-path}.ttf') format('truetype'), url('#{$file-path}.svg##{$font-family}') format('svg');
+        font-weight: $font-weight;
+        font-style: $font-style;
+    }
+  }
+    // Button creator mixin
+    // Pushable buttons
+    // 1. Button Width
+    // 2. Button Height (it is better for this value to be set 4 times lower than the base width)
+    // 3. Button background color
+    // 4. Button text color
+    // 5. Button font size
+    // 6. Box shadow of the button
+    // 7. Transition of the button
+    @mixin button ($buttWidth, $buttHeight, $buttonColor,$textColor, $fontSize, $boxShadow, $transitionTime) {
+        width: $buttWidth;
+        height: $buttHeight;
+        background: $buttonColor;
+        color: $textColor;
+        font-size: $fontSize;
+        box-shadow: 0 $boxShadow 0 darken($buttonColor, 10%);
+        border: none;
+        outline: none;
+        cursor: pointer;
+        transition: $transitionTime all ease;
+        -webkit-transition: $transitionTime all ease;
+        &:active {
+            background: darken($buttonColor, 10%);
+            margin-top: $boxShadow;
+            box-shadow: none;
+        }
+    }
+    // Pushable buttons
+    // Flat transparent buttons
+    // 1. Button Width
+    // 2. Button Height (it is better for this value to be set 4 times lower than the base width)
+    // 3. Button background color
+    // 4. Button text color
+    // 5. Button font size
+    // 6. Transition of the button
+    @mixin flatButt ($buttWidth, $buttHeight, $borderColor, $textColor, $fontSize, $transitionTime) {
+        width: $buttWidth;
+        height: $buttHeight;
+        background: transparent;
+        border: 1px solid $borderColor;
+        color: $textColor;
+        font-size: $fontSize;
+        outline: none;
+        cursor: pointer;
+        transition: $transitionTime all ease;
+        -webkit-transition: $transitionTime all ease;
+        &:hover {
+            background: $borderColor;
+            color: lighten($textColor, 100%);
+        }
+        &:active {
+            background: darken($borderColor, 5%);
+            transform: scale(0.95, 0.95);
+        }
+    }
